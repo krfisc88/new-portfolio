@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  padding: 0;
+  height: 1200px;
+  width: 100%;
+  font-size: 16px;
+  background-image: url(https://bld-schl-pcs.s3.us-east-2.amazonaws.com/outdoor-wilderness.webp);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+}
